@@ -1,0 +1,24 @@
+vscode 同步文档 
+
+
+需要从github连线下载        
+1.首先从vsCode中  打开商店  搜索  sync   下载  名为Settings Sync的插件
+2.快捷键 shift+ctrl+p 打开一个搜索框输入   sync
+
+3.点击 sync：Download Settings      然后根据提示输入     GitHub Token和  GitHub Gist   即可  下载保存在  github上的配置
+
+4.点击 sync：upload/update Settings    然后根据提示输入 GitHub Token和  GitHub Gist  即可上传  
+本机vscode配置  并且会获得一个新的Gist  但是 Token不变        如果不清除本机Token和Gits的数据则不会生成新的Gits
+
+
+5.点击 sync：Reset Extension Settings 即可清除本机 Token和Gits的数据  但是已经下载的配置不会被删除      
+用于重新输入 GitHub Token和  GitHub Gist 
+
+GitHub Token: 4d8f104769f9c360ab8187516cf9802a658c81f2
+GitHub Gist: baae81f4c79a484976a85ef2ead34a63
+GitHub Gist Type: Secret
+
+
+
+
+记得时常清理C:\Users\user\AppData\Roaming\Code文件夹

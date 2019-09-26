@@ -14,7 +14,7 @@ vscode 同步文档
 5.点击 sync：Reset Extension Settings 即可清除本机 Token和Gits的数据  但是已经下载的配置不会被删除      
 用于重新输入 GitHub Token和  GitHub Gist 
 
-GitHub Token: e1b3a163adc09b5aea2da8c4f91be87703618ef2
+GitHub Token: a2ebabd571e82d4e9aeb026162a070b356e6f1cb
 GitHub Gist: a243487330268484e019798ad05f4178
 GitHub Gist Type: Secret
 

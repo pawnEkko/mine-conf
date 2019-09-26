@@ -59,9 +59,6 @@ map tx :r !figlet
 "快捷键映射结束
 
 "基本设置
-"colorscheme plastic
-"colorscheme OceanicNext
-colorscheme onedark
 set number
 set shortmess=atI
 syntax on
@@ -95,6 +92,18 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='oceanicnext'
 let &t_ut=''
 set gcr=a:blinkon1
+
+"主题选项
+"colorscheme plastic
+"colorscheme OceanicNext
+colorscheme onedark
+"主题设置
+let g:onedark_termcolors=256
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
+if (has("termguicolors"))
+ set termguicolors
+endif
 
 "VUE 开发的 缩进调节  在不开发 Vue 时需注释
 au BufNewFile,BufRead *.html,*.js,*.vue set tabstop=2

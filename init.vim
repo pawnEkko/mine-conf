@@ -37,10 +37,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
 Plug 'Yggdroot/indentLine'
-"以下插件全部都是主题插件，请自行更换                   后面的注释为对应的替换主题的指令
-Plug 'joshdick/onedark.vim'                                         "colorscheme onedark
-Plug 'flrnprz/plastic.vim'                                          "colorscheme plastic
-Plug 'mhartington/oceanic-next'                                     "colorscheme OceanicNext
+Plug 'joshdick/onedark.vim'                                         
+Plug 'flrnprz/plastic.vim'                                          
+Plug 'mhartington/oceanic-next'                                     
 call plug#end()
 filetype plugin indent on
 "插件管理结束
@@ -68,7 +67,6 @@ set shiftwidth=4
 set autoindent
 set smartindent
 set showmatch 
-set fdm=syntax
 set encoding=utf-8
 set expandtab
 set tabstop=4
@@ -106,10 +104,10 @@ if (has("termguicolors"))
 endif
 
 "VUE 开发的 缩进调节  在不开发 Vue 时需注释
-au BufNewFile,BufRead *.html,*.js,*.vue set tabstop=2
-au BufNewFile,BufRead *.html,*.js,*.vue set softtabstop=2
-au BufNewFile,BufRead *.html,*.js,*.vue set shiftwidth=2
-autocmd InsertLeave * se nocul
-autocmd InsertEnter * se cul
-autocmd FileType vue syntax sync fromstart
-autocmd FileType vue noremap <buffer> <F2> :%!vue-formatter<CR>     "vue 代码格式化插件
+"au BufNewFile,BufRead *.html,*.js,*.vue set tabstop=2
+"au BufNewFile,BufRead *.html,*.js,*.vue set softtabstop=2
+"au BufNewFile,BufRead *.html,*.js,*.vue set shiftwidth=2
+"autocmd InsertLeave * se nocul
+"autocmd InsertEnter * se cul
+"autocmd FileType vue syntax sync fromstart
+"autocmd FileType vue noremap <buffer> <F2> :%!vue-formatter<CR>     "vue 代码格式化插件
